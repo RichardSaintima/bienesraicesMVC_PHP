@@ -1,0 +1,26 @@
+{
+    "name": "stanl/bienesraices",
+    "description": "Creando un proyecto kcon POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Stanl\\Bienesraices\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RichardSaintima",
+            "email": "RichardSaintima@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
